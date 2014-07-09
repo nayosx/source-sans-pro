@@ -58,10 +58,10 @@
     font-weight: 400;
     font-style: italic;
     font-stretch: normal;
-    src: url('EOT/SourceSansPro-Italic.eot') format('embedded-opentype'),
-         url('WOFF/OTF/SourceSansPro-Italic.otf.woff') format('woff'),
-         url('OTF/SourceSansPro-Italic.otf') format('opentype'),
-         url('TTF/SourceSansPro-Italic.ttf') format('truetype');
+    src: url('EOT/SourceSansPro-It.eot') format('embedded-opentype'),
+         url('WOFF/OTF/SourceSansPro-It.otf.woff') format('woff'),
+         url('OTF/SourceSansPro-It.otf') format('opentype'),
+         url('TTF/SourceSansPro-It.ttf') format('truetype');
 }
 
 @font-face{
