@@ -3,22 +3,13 @@
 	<advance width="491"/>
 	<outline>
 		<contour>
-			<point x="172" y="0" type="line"/>
-			<point x="319" y="0" type="line"/>
-			<point x="319" y="408" type="line"/>
-			<point x="466" y="408" type="line"/>
-			<point x="466" y="528" type="line"/>
-			<point x="25" y="528" type="line"/>
-			<point x="25" y="408" type="line"/>
-			<point x="172" y="408" type="line"/>
-		</contour>
-		<contour>
 			<point x="54" y="195" type="line"/>
 			<point x="437" y="195" type="line"/>
 			<point x="437" y="291" type="line"/>
 			<point x="148" y="291" type="line"/>
 			<point x="54" y="285" type="line"/>
 		</contour>
+		<component base="T.sc"/>
 		<contour>
 			<point name="aboveUC" x="245" y="564" type="move"/>
 		</contour>

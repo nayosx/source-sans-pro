@@ -1,4 +1,4 @@
-# Created: Tue Aug 21 14:22:02 2018
+# Created: Tue Sep 11 13:32:37 2018
 # PS Name: SourceSansPro-ExtraLightIt
 # MM Inst: None
 # exported from Defcon
@@ -28,7 +28,7 @@ lookup MARK_BASE_above {
 	@bGC_dtail_above = [dtail dhook];
 	@bGC_ereversed_above = [ereversed schwa eopen];
 	@bGC_f_above = [f esh dotlessjstrokehook glottalstop];
-	@bGC_h_above = [h k l lslash lretroflex];
+	@bGC_h_above = [h k l lslash lretroflex l.a];
 	@bGC_m_above = [m mhook];
 	@bGC_mturned_above = [mturned mlonglegturned];
 	@bGC_n_above = [n o oslash eng eopenreversedclosed Gsmall nhookleft nretroflex obar];
@@ -96,7 +96,6 @@ lookup MARK_BASE_above {
 	pos base istroke.x <anchor 164 502> mark @MC_above;
 	pos base j <anchor 198 678> mark @MC_above;
 	pos base jcrossedtail.x <anchor 210 502> mark @MC_above;
-	pos base l.a <anchor 206 730> mark @MC_above;
 	pos base lbelt <anchor 226 730> mark @MC_above;
 	pos base lezh <anchor 230 730> mark @MC_above;
 	pos base lmiddletilde <anchor 260 730> mark @MC_above;
@@ -122,7 +121,7 @@ lookup MARK_BASE_aboveright {
 
 lookup MARK_BASE_base {
 	@bGC_S_base = [S e];
-	@bGC_T_base = [T u Tbar ubar];
+	@bGC_T_base = [T u ubar];
 	@bGC_s_base = [s t];
 	pos base @bGC_S_base <anchor 210 0> mark @MC_base;
 	pos base @bGC_T_base <anchor 190 0> mark @MC_base;
@@ -203,7 +202,7 @@ lookup MARK_BASE_below {
 	pos base dezh <anchor 340 -222> mark @MC_below;
 	pos base g.a <anchor 158 -230> mark @MC_below;
 	pos base gammalatin <anchor 100 -222> mark @MC_below;
-	pos base hturned <anchor 310 -230> mark @MC_below;
+	pos base hturned <anchor 170 -230> mark @MC_below;
 	pos base istroke <anchor 68 -22> mark @MC_below;
 	pos base j <anchor -44 -230> mark @MC_below;
 	pos base jcrossedtail.x <anchor -40 -230> mark @MC_below;

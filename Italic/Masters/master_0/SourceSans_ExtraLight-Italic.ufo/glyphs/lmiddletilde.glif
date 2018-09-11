@@ -3,7 +3,7 @@
 	<unicode hex="026B"/>
 	<advance width="314"/>
 	<outline>
-		<component base="l" xOffset="54"/>
+		<component base="l.a" xOffset="54"/>
 		<component base="tildeoverlaycmb" xOffset="136" yOffset="140"/>
 		<contour>
 			<point name="aboveUC" x="260" y="730" type="move"/>

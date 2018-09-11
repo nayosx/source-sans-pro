@@ -516,12 +516,14 @@ feature ccmp { # Glyph Composition / Decomposition
 		sub [@LETTERS_MINISCULE_LATIN_ACCENTED_BELOW @LETTERS_MAJUSCULE_LATIN_ACCENTED_BELOW]' lookup DECOMPOSITION @MARKS_CMB_ABOVE; # only partial solution, below/above
 		sub [Ecircumflex ecircumflex Ocircumflex ocircumflex]' lookup DECOMPOSITION brevecmb; # Jarai language
 		sub [Emacron emacron Omacron omacron]' lookup DECOMPOSITION acutecmb; # Greek transliteration
+#		sub [Yi yi]' lookup DECOMPOSITION acutecmb; # Cyrillic stressed notation
 	} GLYPH_DECOMPOSITION_CONTEXTUAL;
 
 	lookup GLYPH_COMPOSITION_CONTEXTUAL {
 		#substitutes dotless forms when followed by combining diacritics
 		sub i' ogonekcmb' @MARKS_CMB_ABOVE by iogonek.x;
-		sub [i iogonek istroke jcrossedtail]' @MARKS_CMB_ABOVE by [dotlessi iogonek.x istroke.x jcrossedtail.x];
+		sub [i j iogonek istroke jcrossedtail]' @MARKS_CMB_BELOW @MARKS_CMB_ABOVE by [dotlessi dotlessj iogonek.x istroke.x jcrossedtail.x];
+		sub [i j iogonek istroke jcrossedtail]' @MARKS_CMB_ABOVE by [dotlessi dotlessj iogonek.x istroke.x jcrossedtail.x];
 	} GLYPH_COMPOSITION_CONTEXTUAL;
 
 	lookup MARKS_COMPOSITION {
@@ -614,11 +616,16 @@ feature ccmp { # Glyph Composition / Decomposition
 #OK
 feature locl { # Localized Forms
 
-	script latn;
+#	script latn;
 #		lookup GREEK_TO_IPA { # substitutes Greek characters by Latin characters
+#			sub alpha by alphalatin;
 #			sub beta by betalatin;
-#			sub chi by chilatin;
+#			sub gamma by gammalatin;
 ##			sub theta by theta.alt1; #from Myriad features
+#			sub iota by iotalatin;
+#			sub upsilon by upsilonlatin;
+#			sub phi by philatin;
+#			sub chi by chilatin;
 #		} GREEK_TO_IPA;
 
 		language ATH exclude_dflt;
@@ -765,12 +772,22 @@ feature onum { # Oldstyle (Text) Figures
 
 #--------------------------------------
 feature case { # Case-Sensitive Forms
-	sub @MARKS_CMB_LC by @MARKS_CMB_CASE;
-	sub at by at.case;
-#	sub anoteleia by anoteleia.cap;
+
+	lookup LETTERS_CASE {
+		sub [hlinebelow tdieresis] by [Hlinebelow Tdieresis];
+	} LETTERS_CASE;
+
+	lookup MARKS_CASE {
+		sub @MARKS_CMB_LC by @MARKS_CMB_CASE;
+#		sub anoteleia by anoteleia.cap;
+	} MARKS_CASE;
+
 	lookup FIGURES_CASE {
 		sub @FIGURES_LINING_TABULAR by @FIGURES_CAP;
 	} FIGURES_CASE;
+
+	sub at by at.case;
+
 } case;
 
 

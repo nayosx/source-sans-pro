@@ -557,7 +557,7 @@ feature ccmp { # Glyph Composition / Decomposition
 	} MARKS_COMPOSITION;
 
 	lookup GLYPH_COMPOSITION_LATIN_NONCONTEXTUAL {
-		sub A ogonekcmb acutecmb by Aogonekacute; # !! look at all this, in combination with above
+		sub A ogonekcmb acutecmb by Aogonekacute;
 		sub E ogonekcmb acutecmb by Eogonekacute;
 		sub I ogonekcmb acutecmb by Iogonekacute;
 		sub O ogonekcmb acutecmb by Oogonekacute;
@@ -912,16 +912,17 @@ feature ccmp { # Glyph Composition / Decomposition
 feature locl { # Localized Forms
 
 	script latn;
-		lookup GREEK_TO_IPA { # substitutes Greek characters by Latin characters
-			sub alpha by alphalatin;
-			sub beta by betalatin;
-			sub gamma by gammalatin;
-#			sub theta by theta.alt1; #from Myriad features
-			sub iota by iotalatin;
-			sub upsilon by upsilonlatin;
-			sub phi by philatin;
-			sub chi by chilatin;
-		} GREEK_TO_IPA;
+		language dflt;
+			lookup GREEK_TO_IPA { # substitutes Greek characters by Latin characters
+				sub alpha by alphalatin;
+				sub beta by betalatin;
+				sub gamma by gammalatin;
+	#			sub theta by theta.alt1; #from Myriad features
+				sub iota by iotalatin;
+				sub upsilon by upsilonlatin;
+				sub phi by philatin;
+				sub chi by chilatin;
+			} GREEK_TO_IPA;
 
 		language ATH include_dflt;
 			lookup OGONEKS_ATH {
@@ -1067,12 +1068,22 @@ feature onum { # Oldstyle (Text) Figures
 
 #--------------------------------------
 feature case { # Case-Sensitive Forms
-	sub @MARKS_CMB_LC by @MARKS_CMB_CASE;
-	sub at by at.case;
-	sub anoteleia by anoteleia.cap;
+
+	lookup LETTERS_CASE {
+		sub [hlinebelow tdieresis] by [Hlinebelow Tdieresis];
+	} LETTERS_CASE;
+
+	lookup MARKS_CASE {
+		sub @MARKS_CMB_LC by @MARKS_CMB_CASE;
+		sub anoteleia by anoteleia.cap;
+	} MARKS_CASE;
+
 	lookup FIGURES_CASE {
 		sub @FIGURES_LINING_TABULAR by @FIGURES_CAP;
 	} FIGURES_CASE;
+
+	sub at by at.case;
+
 } case;
 
 

@@ -9,10 +9,21 @@
 			<point x="148" y="696" type="line"/>
 		</contour>
 		<contour>
-			<point name="aboveLC" x="220" y="730" type="move"/>
+			<point name="aboveUC" x="220" y="720" type="move"/>
 		</contour>
 		<contour>
 			<point name="belowLC" x="80" y="-22" type="move"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.mark</key>
+			<array>
+				<real>0.0595</real>
+				<real>0.5019</real>
+				<real>0.9985</real>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

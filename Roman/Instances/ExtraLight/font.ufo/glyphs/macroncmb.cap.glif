@@ -8,6 +8,9 @@
 			<point x="-120" y="774" type="line"/>
 		</contour>
 		<contour>
+			<point name="aboveUC" x="0" y="782" type="move"/>
+		</contour>
+		<contour>
 			<point name="_aboveUC" x="0" y="682" type="move"/>
 		</contour>
 	</outline>

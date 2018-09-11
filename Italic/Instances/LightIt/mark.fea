@@ -1,4 +1,4 @@
-# Created: Tue Aug 21 14:22:06 2018
+# Created: Tue Sep 11 13:32:40 2018
 # PS Name: SourceSansPro-LightIt
 # MM Inst: None
 # exported from Defcon
@@ -23,13 +23,14 @@ lookup MARK_BASE_above {
 	@bGC_b_above = [b thorn];
 	@bGC_bhook_above = [bhook henghook glottalstopstrokereversed];
 	@bGC_c_above = [c Bsmall ghook];
-	@bGC_dotlessi_above = [dotlessi Lsmall];
+	@bGC_dotlessi_above = [dotlessi iotalatin Lsmall];
 	@bGC_dotlessj_above = [dotlessj iogonek.x];
 	@bGC_dotlessjstrokehook_above = [dotlessjstrokehook glottalstop];
 	@bGC_dtail_above = [dtail dhook];
 	@bGC_e_above = [e eogonek eogonek.d Nsmall];
 	@bGC_g_above = [g gscript];
 	@bGC_h_above = [h k lretroflex];
+	@bGC_l_above = [l l.a];
 	@bGC_m_above = [m mhook];
 	@bGC_mturned_above = [mturned mlonglegturned];
 	@bGC_n_above = [n eng nhookleft nretroflex];
@@ -66,6 +67,7 @@ lookup MARK_BASE_above {
 	pos base @bGC_e_above <anchor 302 504> mark @MC_above;
 	pos base @bGC_g_above <anchor 310 504> mark @MC_above;
 	pos base @bGC_h_above <anchor 213 729> mark @MC_above;
+	pos base @bGC_l_above <anchor 211 729> mark @MC_above;
 	pos base @bGC_m_above <anchor 463 504> mark @MC_above;
 	pos base @bGC_mturned_above <anchor 443 504> mark @MC_above;
 	pos base @bGC_n_above <anchor 324 504> mark @MC_above;
@@ -128,9 +130,8 @@ lookup MARK_BASE_above {
 	pos base hhook <anchor 307 730> mark @MC_above;
 	pos base i <anchor 203 682> mark @MC_above;
 	pos base istroke.x <anchor 170 504> mark @MC_above;
+	pos base j <anchor 201 682> mark @MC_above;
 	pos base jcrossedtail.x <anchor 218 504> mark @MC_above;
-	pos base l <anchor 211 729> mark @MC_above;
-	pos base l.a <anchor 207 730> mark @MC_above;
 	pos base lbelt <anchor 234 729> mark @MC_above;
 	pos base lezh <anchor 231 729> mark @MC_above;
 	pos base lmiddletilde <anchor 266 729> mark @MC_above;
@@ -278,7 +279,7 @@ lookup MARK_BASE_below {
 	pos base glottalstopstrokereversed <anchor 181 -22> mark @MC_below;
 	pos base henghook <anchor 172 -212> mark @MC_below;
 	pos base hhook <anchor 226 -22> mark @MC_below;
-	pos base hturned <anchor 299 -227> mark @MC_below;
+	pos base hturned <anchor 170 -227> mark @MC_below;
 	pos base i <anchor 67 -22> mark @MC_below;
 	pos base istroke <anchor 72 -22> mark @MC_below;
 	pos base istroke.x <anchor 69 -22> mark @MC_below;
@@ -288,10 +289,10 @@ lookup MARK_BASE_below {
 	pos base l <anchor 75 -22> mark @MC_below;
 	pos base lbelt <anchor 93 -22> mark @MC_below;
 	pos base lezh <anchor 239 -220> mark @MC_below;
-	pos base lmiddletilde <anchor 130 -22> mark @MC_below;
+	pos base lmiddletilde <anchor 128 -22> mark @MC_below;
 	pos base lretroflex <anchor 72 -216> mark @MC_below;
 	pos base mhook <anchor 303 -227> mark @MC_below;
-	pos base mlonglegturned <anchor 348 -40> mark @MC_below;
+	pos base mlonglegturned <anchor 348 -22> mark @MC_below;
 	pos base nhookleft <anchor 192 -227> mark @MC_below;
 	pos base nretroflex <anchor 165 -227> mark @MC_below;
 	pos base oe <anchor 389 -22> mark @MC_below;

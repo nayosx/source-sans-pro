@@ -137,7 +137,6 @@ Ohorn	aboveUC	406	682
 Ohorn	belowLC	270	-22
 Oogonek	aboveUC	390	682
 Tbar	aboveUC	330	682
-Tbar	baseLC	190	0
 Tbar	belowLC	190	-22
 Uhorn	aboveUC	380	682
 Uhorn	belowLC	240	-22
@@ -227,7 +226,7 @@ Gsmall	belowLC	220	-22
 gammalatin	aboveLC	250	502
 gammalatin	belowLC	100	-222
 hturned	aboveLC	310	502
-hturned	belowLC	310	-230
+hturned	belowLC	170	-230
 hhook	aboveUC	310	730
 hhook	belowLC	220	-22
 henghook	aboveUC	310	730
@@ -274,8 +273,8 @@ obar	belowLC	190	-22
 obar	ogonekLC	190	0
 OEsmall	aboveLC	420	502
 OEsmall	belowLC	320	-22
-omegalatinclosed	belowLC	280	-22
 omegalatinclosed	aboveLC	380	502
+omegalatinclosed	belowLC	280	-22
 philatin	aboveUC	410	730
 philatin	belowLC	210	-222
 rturned	aboveLC	250	502
@@ -336,8 +335,8 @@ glottalstopstrokereversed	aboveUC	310	730
 glottalstopstrokereversed	belowLC	180	-22
 clickalveolar	aboveUC	180	730
 clickalveolar	belowLC	30	-22
-clickretroflex	belowLC	40	-22
 clickretroflex	aboveUC	200	730
+clickretroflex	belowLC	40	-22
 clickbilabial	aboveUC	330	730
 clickbilabial	belowLC	190	-22
 I.a	aboveUC	230	682
@@ -353,7 +352,7 @@ aogonek.a	aboveLC	290	502
 aogonek.b	aboveLC	290	502
 g.a	aboveLC	276	502
 g.a	belowLC	158	-230
-l.a	aboveLC	206	730
+l.a	aboveUC	210	730
 l.a	belowLC	60	-22
 iogonek.x	aboveLC	166	502
 istroke.x	aboveLC	164	502
@@ -383,9 +382,11 @@ tildecmb.cap	_aboveUC	130	682
 macroncmb	_aboveLC	100	502
 macroncmb	aboveLC	120	622
 macroncmb.cap	_aboveUC	130	682
+macroncmb.cap	aboveUC	150	782
 overlinecmb	_aboveLC	100	502
 overlinecmb	aboveLC	120	622
 overlinecmb.cap	_aboveUC	130	682
+overlinecmb.cap	aboveUC	150	782
 brevecmb	_aboveLC	100	502
 brevecmb.cyr	_aboveLC	100	502
 brevecmb.cap	_aboveUC	130	682
@@ -397,7 +398,7 @@ dieresiscmb	_aboveLC	100	502
 dieresiscmb	aboveLC	136	682
 dieresiscmb.cap	_aboveUC	130	682
 hoicmb	_aboveLC	100	502
-hoicmb	aboveLC	0	502
+hoicmb	aboveLC	140	722
 hoicmb.cap	_aboveUC	136	682
 ringcmb	_aboveLC	100	502
 ringcmb.cap	_aboveUC	130	682
