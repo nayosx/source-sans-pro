@@ -217,7 +217,7 @@ eopenreversedclosed	aboveLC	340	520
 eopenreversedclosed	belowLC	230	-20
 dotlessjstroke	aboveLC	210	522
 dotlessjstroke	belowLC	30	-198
-ghook	aboveLC	298	522
+ghook	aboveLC	270	522
 ghook	belowLC	200	-198
 gscript	aboveLC	310	522
 gscript	belowLC	200	-198
@@ -318,7 +318,7 @@ yturned	belowLC	230	-20
 Ysmall	aboveLC	280	520
 Ysmall	belowLC	190	-20
 zretroflex	aboveLC	300	520
-zretroflex	belowLC	160	-158
+zretroflex	belowLC	150	-158
 zcurl	aboveLC	300	520
 zcurl	belowLC	200	-62
 ezh	aboveLC	270	522

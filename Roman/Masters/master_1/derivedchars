@@ -1738,32 +1738,32 @@ EndDerived
 
 /scircumflex DerivedName
 (s) Base
-(circumflexcmb) 16 0 AddCentered
+(circumflexcmb) 14 0 AddCentered
 EndDerived
 
 /scaron DerivedName
 (s) Base
-(caroncmb) 16 0 AddCentered
+(caroncmb) 14 0 AddCentered
 EndDerived
 
 /scedilla DerivedName
 (s) Base
-(cedillacmb) 10 0 AddCentered
+(cedillacmb) -6 0 AddCentered
 EndDerived
 
 /scommaaccent DerivedName
 (s) Base
-(commabelowcmb) 10 0 AddCentered
+(commabelowcmb) -6 0 AddCentered
 EndDerived
 
 /sdotaccent DerivedName
 (s) Base
-(dotaccentcmb) 16 0 AddCentered
+(dotaccentcmb) 14 0 AddCentered
 EndDerived
 
 /sdotbelow DerivedName
 (s) Base
-(dotbelowcmb) 10 0 AddCentered
+(dotbelowcmb) -6 0 AddCentered
 EndDerived
 
 /tcaron DerivedName

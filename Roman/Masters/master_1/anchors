@@ -102,9 +102,9 @@ q	aboveLC	298	522
 q	belowLC	430	-178
 r	aboveLC	260	522
 r	belowLC	140	-22
-s	aboveLC	242	522
-s	baseLC	236	0
-s	belowLC	236	-22
+s	aboveLC	240	522
+s	baseLC	220	0
+s	belowLC	220	-22
 t	aboveLC	180	664
 t	baseLC	240	0
 t	belowLC	240	-22
@@ -179,7 +179,7 @@ dotlessj	aboveLC	146	522
 dotlessj	belowLC	90	-198
 aturned	aboveLC	290	522
 aturned	belowLC	280	-22
-aturned	ogonekLC	360	0
+aturned	ogonekLC	280	0
 alphalatinturned	aboveLC	310	522
 alphalatinturned	belowLC	280	-22
 bhook	aboveUC	250	720
@@ -291,8 +291,8 @@ Rsmall	aboveLC	270	522
 Rsmall	belowLC	290	-22
 Rsmallinverted	aboveLC	280	522
 Rsmallinverted	belowLC	260	-22
-shook	aboveLC	242	522
-shook	belowLC	226	-22
+shook	aboveLC	240	522
+shook	belowLC	230	-188
 esh	aboveUC	220	720
 esh	belowLC	90	-198
 dotlessjstrokehook	aboveUC	260	720
@@ -506,7 +506,6 @@ Ohorn.sc	aboveUC	312	564
 Ohorn.sc	belowLC	313	-22
 Oogonek.sc	aboveUC	314	564
 Tbar.sc	aboveUC	250	564
-Tbar.sc	baseLC	250	0
 Tbar.sc	belowLC	250	-22
 Uhorn.sc	aboveUC	308	564
 Uhorn.sc	belowLC	308	-22

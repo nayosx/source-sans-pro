@@ -217,7 +217,7 @@ eopenreversedclosed	aboveLC	320	502
 eopenreversedclosed	belowLC	220	-22
 dotlessjstroke	aboveLC	160	502
 dotlessjstroke	belowLC	-40	-222
-ghook	aboveLC	300	502
+ghook	aboveLC	290	502
 ghook	belowLC	170	-222
 gscript	aboveLC	310	502
 gscript	belowLC	170	-222
@@ -318,7 +318,7 @@ yturned	belowLC	180	-22
 Ysmall	aboveLC	230	502
 Ysmall	belowLC	140	-22
 zretroflex	aboveLC	260	502
-zretroflex	belowLC	140	-122
+zretroflex	belowLC	120	-122
 zcurl	aboveLC	260	502
 zcurl	belowLC	140	-62
 ezh	aboveLC	250	502
@@ -447,7 +447,7 @@ xabovecmb	_aboveLC	100	502
 perispomenicmb	_aboveLC	100	502
 perispomenicmb.cap	_aboveUC	130	682
 koroniscmb	_aboveLC	100	502
-dialytikatonoscmb	_aboveLC	0	502
+dialytikatonoscmb	_aboveLC	100	502
 iotasubscriptcmb	_belowLC	0	-22
 dieresisacute	_aboveLC	100	502
 dieresisacute.cap	_aboveUC	136	682
