@@ -1889,6 +1889,7 @@
 					<string>tildecmb</string>
 					<string>tildecmb.cap</string>
 					<string>macroncmb</string>
+					<string>macroncmb.cap</string>
 					<string>overlinecmb</string>
 					<string>overlinecmb.cap</string>
 					<string>brevecmb</string>
@@ -1896,7 +1897,6 @@
 					<string>brevecmb.cap</string>
 					<string>brevecmb.cyrcap</string>
 					<string>dotaccentcmb</string>
-					<string>macroncmb.cap</string>
 					<string>dotaccentcmb.cap</string>
 					<string>dieresiscmb</string>
 					<string>dieresiscmb.cap</string>
@@ -3994,6 +3994,7 @@
 			<string>tildecmb</string>
 			<string>tildecmb.cap</string>
 			<string>macroncmb</string>
+			<string>macroncmb.cap</string>
 			<string>overlinecmb</string>
 			<string>overlinecmb.cap</string>
 			<string>brevecmb</string>
@@ -4001,7 +4002,6 @@
 			<string>brevecmb.cap</string>
 			<string>brevecmb.cyrcap</string>
 			<string>dotaccentcmb</string>
-			<string>macroncmb.cap</string>
 			<string>dotaccentcmb.cap</string>
 			<string>dieresiscmb</string>
 			<string>dieresiscmb.cap</string>
