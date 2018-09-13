@@ -1,4 +1,4 @@
-# Created: Tue Sep 11 13:32:40 2018
+# Created: Thu Sep 13 14:27:50 2018
 # PS Name: SourceSansPro-LightIt
 # MM Inst: None
 # exported from Defcon
@@ -22,7 +22,7 @@ lookup MARK_BASE_above {
 	@bGC_alphalatin_above = [alphalatin ubar];
 	@bGC_b_above = [b thorn];
 	@bGC_bhook_above = [bhook henghook glottalstopstrokereversed];
-	@bGC_c_above = [c Bsmall ghook];
+	@bGC_c_above = [c Bsmall];
 	@bGC_dotlessi_above = [dotlessi iotalatin Lsmall];
 	@bGC_dotlessj_above = [dotlessj iogonek.x];
 	@bGC_dotlessjstrokehook_above = [dotlessjstrokehook glottalstop];
@@ -125,6 +125,7 @@ lookup MARK_BASE_above {
 	pos base f <anchor 285 729> mark @MC_above;
 	pos base g.a <anchor 278 504> mark @MC_above;
 	pos base gammalatin <anchor 255 504> mark @MC_above;
+	pos base ghook <anchor 288 504> mark @MC_above;
 	pos base glottalstopreversed <anchor 304 729> mark @MC_above;
 	pos base glottalstopstroke <anchor 293 729> mark @MC_above;
 	pos base hhook <anchor 307 730> mark @MC_above;
@@ -319,7 +320,7 @@ lookup MARK_BASE_below {
 	pos base y <anchor 92 -238> mark @MC_below;
 	pos base z <anchor 167 -22> mark @MC_below;
 	pos base zcurl <anchor 146 -62> mark @MC_below;
-	pos base zretroflex <anchor 142 -126> mark @MC_below;
+	pos base zretroflex <anchor 123 -126> mark @MC_below;
 } MARK_BASE_below;
 
 

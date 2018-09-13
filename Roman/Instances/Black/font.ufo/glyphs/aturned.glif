@@ -44,7 +44,7 @@
 			<point x="306" y="290"/>
 		</contour>
 		<contour>
-			<point name="ogonekLC" x="360" y="0" type="move"/>
+			<point name="ogonekLC" x="280" y="0" type="move"/>
 		</contour>
 		<contour>
 			<point name="aboveLC" x="290" y="522" type="move"/>
