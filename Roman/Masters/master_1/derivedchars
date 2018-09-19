@@ -1382,7 +1382,7 @@ EndDerived
 
 /hcircumflex DerivedName
 (h) Base
-(circumflexcmb.cap) -151 48 AddCentered
+(circumflexcmb.cap) 29 48 AddCentered
 EndDerived
 
 /hdotbelow DerivedName
@@ -1462,17 +1462,17 @@ EndDerived
 
 /kcommaaccent DerivedName
 (k) Base
-(commabelowcmb) 20 0 AddCentered
+(commabelowcmb) 16 0 AddCentered
 EndDerived
 
 /kdotbelow DerivedName
 (k) Base
-(dotbelowcmb) 20 0 AddCentered
+(dotbelowcmb) 16 0 AddCentered
 EndDerived
 
 /klinebelow DerivedName
 (k) Base
-(macronbelowcmb) 20 0 AddCentered
+(macronbelowcmb) 16 0 AddCentered
 EndDerived
 
 /lacute DerivedName
@@ -5660,7 +5660,7 @@ EndDerived
 
 /Zhebreve.sc DerivedName
 (Zhe.sc) Base
-(brevecmb.cyrcap) 0 -108 AddCentered
+(brevecmb.cyrcap) -6 -108 AddCentered
 EndDerived
 
 /Palochka.sc DerivedName
