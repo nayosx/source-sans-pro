@@ -1,4 +1,4 @@
-# Created: Thu Sep 13 14:27:47 2018
+# Created: Wed Sep 19 11:32:55 2018
 # PS Name: SourceSansPro-BlackIt
 # MM Inst: None
 # exported from Defcon
@@ -19,11 +19,10 @@ lookup MARK_BASE_above {
 	@bGC_U_above = [U Uhorn Uogonek];
 	@bGC_a_above = [a e o u aogonek aogonek.d eogonek eogonek.d oslash oogonek uhorn uogonek uogonek.d hturned Nsmall obar];
 	@bGC_aturned_above = [aturned vhook];
-	@bGC_b_above = [b h k thorn lretroflex lezh];
-	@bGC_bhook_above = [bhook henghook glottalstopreversed glottalstopstrokereversed];
+	@bGC_b_above = [b h thorn bhook hhook henghook];
 	@bGC_c_above = [c z Bsmall schwa g.a];
 	@bGC_ccurl_above = [ccurl eopen gammalatin zretroflex zcurl];
-	@bGC_d_above = [d dtail dhook];
+	@bGC_d_above = [d dtail dhook glottalstopreversed glottalstopstrokereversed];
 	@bGC_dotlessi_above = [dotlessi dotlessj iotalatin Lsmall iogonek.x];
 	@bGC_eopenreversed_above = [eopenreversed shook];
 	@bGC_eth_above = [eth betalatin];
@@ -32,6 +31,7 @@ lookup MARK_BASE_above {
 	@bGC_l_above = [l l.a];
 	@bGC_lbelt_above = [lbelt clickalveolar];
 	@bGC_lmiddletilde_above = [lmiddletilde dotlessjstrokehook glottalstop glottalstopstroke];
+	@bGC_lretroflex_above = [lretroflex lezh];
 	@bGC_m_above = [m mhook];
 	@bGC_mturned_above = [mturned mlonglegturned];
 	@bGC_n_above = [n eng];
@@ -57,11 +57,10 @@ lookup MARK_BASE_above {
 	pos base @bGC_U_above <anchor 420 682> mark @MC_above;
 	pos base @bGC_a_above <anchor 320 522> mark @MC_above;
 	pos base @bGC_aturned_above <anchor 320 520> mark @MC_above;
-	pos base @bGC_b_above <anchor 240 720> mark @MC_above;
-	pos base @bGC_bhook_above <anchor 340 720> mark @MC_above;
+	pos base @bGC_b_above <anchor 400 720> mark @MC_above;
 	pos base @bGC_c_above <anchor 300 522> mark @MC_above;
 	pos base @bGC_ccurl_above <anchor 300 520> mark @MC_above;
-	pos base @bGC_d_above <anchor 500 720> mark @MC_above;
+	pos base @bGC_d_above <anchor 340 720> mark @MC_above;
 	pos base @bGC_dotlessi_above <anchor 190 522> mark @MC_above;
 	pos base @bGC_eopenreversed_above <anchor 270 520> mark @MC_above;
 	pos base @bGC_eth_above <anchor 390 720> mark @MC_above;
@@ -70,6 +69,7 @@ lookup MARK_BASE_above {
 	pos base @bGC_l_above <anchor 220 720> mark @MC_above;
 	pos base @bGC_lbelt_above <anchor 310 720> mark @MC_above;
 	pos base @bGC_lmiddletilde_above <anchor 320 720> mark @MC_above;
+	pos base @bGC_lretroflex_above <anchor 240 720> mark @MC_above;
 	pos base @bGC_m_above <anchor 490 522> mark @MC_above;
 	pos base @bGC_mturned_above <anchor 470 522> mark @MC_above;
 	pos base @bGC_n_above <anchor 360 522> mark @MC_above;
@@ -101,8 +101,8 @@ lookup MARK_BASE_above {
 	pos base eopenreversedclosed <anchor 340 520> mark @MC_above;
 	pos base esh <anchor 300 720> mark @MC_above;
 	pos base f <anchor 330 720> mark @MC_above;
-	pos base hhook <anchor 279 730> mark @MC_above;
 	pos base istroke.x <anchor 220 522> mark @MC_above;
+	pos base k <anchor 380 720> mark @MC_above;
 	pos base lslash <anchor 260 730> mark @MC_above;
 	pos base oe <anchor 450 522> mark @MC_above;
 	pos base omegalatinclosed <anchor 390 522> mark @MC_above;
